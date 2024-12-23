@@ -39,7 +39,7 @@ const VideoList = () => {
   const fetchVideos = async () => {
     try {
       const token = Cookies.get('token') || localStorage.getItem('token');
-      const response = await fetch('http://localhost:5000/api/videos', {
+      const response = await fetch('https://video-management-app.onrender.com/api/videos', {
         headers: {
           'Authorization': `Bearer ${token}`,
         },

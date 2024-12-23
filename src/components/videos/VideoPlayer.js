@@ -98,7 +98,7 @@ const VideoPlayer = () => {
     const fetchVideoData = async () => {
       try {
         const token = Cookies.get('token') || localStorage.getItem('token');
-        const response = await fetch(`http://localhost:5000/api/videos/${id}`, {
+        const response = await fetch(`https://video-management-app.onrender.com/api/videos/${id}`, {
           headers: {
             'Authorization': `Bearer ${token}`,
           },
@@ -220,7 +220,7 @@ const VideoPlayer = () => {
               height="100%"
               onTimeUpdate={handleTimeUpdate}
               onLoadedMetadata={handleLoadedMetadata}
-              src={`http://localhost:5000${videoData?.fileUrl}`}
+              src={`https://video-management-app.onrender.com${videoData?.fileUrl}`}
               style={{ backgroundColor: '#000', objectFit: 'contain' }}
             />
             
