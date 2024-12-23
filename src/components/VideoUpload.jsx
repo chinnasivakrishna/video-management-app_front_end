@@ -10,7 +10,7 @@ function VideoUpload() {
     const token = localStorage.getItem('token');
     try {
       await axios.post(
-        'http://localhost:5000/api/videos/upload',
+        'https://video-management-app.onrender.com/api/videos/upload',
         { title, description, tags: tags.split(',') },
         { headers: { Authorization: token } }
       );

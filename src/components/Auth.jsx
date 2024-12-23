@@ -7,7 +7,7 @@ function Auth() {
 
   const handleLogin = async () => {
     try {
-      const { data } = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+      const { data } = await axios.post('https://video-management-app.onrender.com/api/auth/login', { username, password });
       localStorage.setItem('token', data.token);
       window.location.href = '/dashboard';
     } catch (error) {
