@@ -1,0 +1,13 @@
+.nav{
+  display: flex;
+}
+
+.img{
+  margin-top: -10px;
+  height: 8vh;
+}
+
+.logo{
+  display: flex;
+  
+}

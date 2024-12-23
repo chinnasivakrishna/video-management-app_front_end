@@ -1,0 +1,34 @@
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-container h2 {
+    color: #4b0082;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upload-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .upload-container form input,
+  .upload-container form textarea,
+  .upload-container form button {
+    width: 100%;
+  }
+  
+  .upload-container form button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  

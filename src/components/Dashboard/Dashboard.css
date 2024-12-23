@@ -1,0 +1,40 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+  }
+  
+  .dashboard-header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dashboard-header nav a {
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  
+  .dashboard-header nav a:hover {
+    opacity: 0.7;
+  }
+  
+  main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
