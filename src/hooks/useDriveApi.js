@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
-const GOOGLE_API_KEY = AIzaSyBan9Z3LQ3MlzNjKypztVZxR8Z5-YAW_Vc;
-const GOOGLE_CLIENT_ID = 563533938078-9c4h92mat7s939a3l2i5nuq0083bgef8.apps.googleusercontent.com;
+const GOOGLE_API_KEY = "AIzaSyBan9Z3LQ3MlzNjKypztVZxR8Z5-YAW_Vc";
+const GOOGLE_CLIENT_ID = "563533938078-9c4h92mat7s939a3l2i5nuq0083bgef8.apps.googleusercontent.com";
 
 export const useDriveApi = () => {
   const initClient = useCallback(async () => {
